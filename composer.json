@@ -1,15 +1,28 @@
 {
-    "name": "atheotsky/magento-coding-standard",
+    "name": "isevenr/magento-coding-standard",
     "description": "A set of Magento specific PHP CodeSniffer rules.",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
     ],
+    "support": {
+      "source": "https://github.com/atheotsky/magento-coding-standard",
+      "issues": "https://github.com/atheotsky/magento-coding-standard/issues",
+      "wiki": "https://github.com/atheotsky/magento-coding-standard/wiki"
+    },
     "type": "phpcodesniffer-standard",
-    "version": "2.0.0",
     "require": {
         "php": ">=5.6.0"
     },
+    "require-dev": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [{
+      "name": "Thanh, Nguyen Duy",
+      "email": "sales@isevenr.com"
+    }],
+    "version": "1.0.0",
+    ],
     "scripts": {
         "post-install-cmd": "vendor/bin/phpcs --config-set installed_paths ../../..",
         "post-update-cmd": "vendor/bin/phpcs --config-set installed_paths ../../.."
